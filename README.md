@@ -1,3 +1,69 @@
+# iRice Decision Support System
+
+A password-protected Power BI dashboard with modern glassmorphism design.
+
+## Features
+
+- 🔐 Password-protected access
+- 📊 Embedded Power BI reports
+- 🎨 Modern glassmorphism UI
+- 📱 Fully responsive design
+- ⚡ Fast deployment with Vercel
+
+## Deployment
+
+### Quick Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/iriceproject)
+
+### Manual Deployment
+
+1. **Install Vercel CLI**
+   ```bash
+   npm i -g vercel
+   ```
+
+2. **Login to Vercel**
+   ```bash
+   vercel login
+   ```
+
+3. **Deploy**
+   ```bash
+   vercel --prod
+   ```
+
+### Environment Variables
+
+Set these in your Vercel dashboard under Settings > Environment Variables:
+
+- `NEXT_PUBLIC_APP_NAME`: iRice Decision Support System
+- `AUTH_PASSWORD`: upm2025 (optional, currently hardcoded)
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Technology Stack
+
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
+- **Analytics**: Power BI Embedded
+
+## Password
+
+Default password: `upm2025`
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
